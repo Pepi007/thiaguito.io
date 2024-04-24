@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+body{
+    /* background-color:rgb(48, 48, 246); */
+    color: rgba(255, 255, 255, 0.841);
+    display: grid;
+    place-items: center;
+    font-family: "Poppins", sans-serif;
+    background: rgb(22,106,249);
+background: linear-gradient(90deg, rgba(22,106,249,1) 0%, rgba(58,0,128,1) 100%);
+}
+
+main{
+    display: grid;
+    place-items: center;
+    font-family: "Poppins", sans-serif;
+}
+
+h1{
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: .5rem;
+    font-size: 50px;
+}
+
+h2{
+    margin-top: .5rem;
+    margin-bottom: 2rem;
+    font-size: 30px;
+}
+
+.seccion{
+    display: grid;
+    place-items: center;
+    margin-bottom: 20px;
+}
+
+#texto{
+    width: 200px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 20px;
+}
+
+img{
+    width: 50vw;
+    height: 70vh;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+    border: 2px solid white;
+    margin-top: 1rem;
+}
+
